@@ -2,7 +2,6 @@
 
 set -eu
 
-sudo rm -rf /usr/bin/as
 test -d out || mkdir out -p -v
 test -d ../vnd || mkdir vnd -p -v
 test -d ../vendor/mediatek/kernel_modules/gpu/gpu_mali/mali_valhall/mali-r25p0 || cp -r -v ../vendor/mediatek/kernel_modules/gpu/gpu_mali/mali_valhall/mali-r25p0 drivers/gpu/mediatek/gpu_mali/mali_valhall/
