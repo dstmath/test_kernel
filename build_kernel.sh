@@ -9,7 +9,7 @@ test -d ../vendor/mediatek/kernel_modules/gpu/gpu_mali/mali_valhall/mali-r25p0 |
 sudo chmod 777 -R ../aarch64-linux-android-4.9/bin/*
 sudo chmod 777 -R ../arm-linux-androideabi-4.9/bin/*
 sudo chmod 777 -R ../clang/bin/*
-sudo chmod 777 -R /usr/bin/aarch64-linux-gnu*
+
 BUILD_CROSS_COMPILE=../aarch64-linux-android-4.9/bin/aarch64-linux-android-
 CLANG_PATH=../clang/bin
 CROSS_COMPILE_ARM32=../arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
