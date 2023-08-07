@@ -21,7 +21,7 @@ export PATH=${CLANG_PATH}:${PATH}
 
 make -j$(nproc) -C $(pwd) O=$(pwd)/out CROSS_COMPILE=$BUILD_CROSS_COMPILE CLANG_TRIPLE=$CLANG_TRIPLE CROSS_COMPILE_ARM32=$CROSS_COMPILE_ARM32 \
     CC=clang \
-    vendor/r6_nodtb_defconfig
+    vendor/A575G_defconfig
 
 A=$(date +%s)
 make -j$(nproc) -C $(pwd) O=$(pwd)/out CROSS_COMPILE=$BUILD_CROSS_COMPILE CLANG_TRIPLE=$CLANG_TRIPLE CROSS_COMPILE_ARM32=$CROSS_COMPILE_ARM32 \
